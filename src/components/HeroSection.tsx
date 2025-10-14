@@ -3,7 +3,12 @@ import heroImage from "@/assets/hero-computer-lab.jpg";
 
 const HeroSection = () => {
   const handleOpenExcel = () => {
-    window.open("/CO_ASS_144P80_QUELv230719_1_JOTHI.xlsx", "_blank");
+    const link = document.createElement('a');
+    link.href = "/CO_ASS_144P80_QUELv230719_1_JOTHI.xlsx";
+    link.download = "CO_ASS_144P80_QUELv230719_1_JOTHI.xlsx";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
