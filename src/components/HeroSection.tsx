@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative mt-20">
+    <section className="relative mt-[140px]">
       {/* Hero Image */}
       <div className="relative h-[500px] md:h-[600px] overflow-hidden">
         <img 
