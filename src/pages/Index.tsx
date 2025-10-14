@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import NewsTicker from "@/components/NewsTicker";
+import NewsEvents from "@/components/NewsEvents";
+import AcademicCalendar from "@/components/AcademicCalendar";
+import AcademicLinks from "@/components/AcademicLinks";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <NewsTicker />
+        
+        {/* Main Content Sections */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <NewsEvents />
+            <AcademicCalendar />
+            <AcademicLinks />
+          </div>
+        </section>
+      </main>
+      <Footer />
     </div>
   );
 };
