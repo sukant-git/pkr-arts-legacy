@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-computer-lab.jpg";
 
 const HeroSection = () => {
   const handleOpenExcel = () => {
-    window.open("/CO_ASS(144P80)QUELv230719_(1)_JOTHI.xlsx", "_blank");
+    window.open("/CO_ASS_144P80_QUELv230719_1_JOTHI.xlsx", "_blank");
   };
 
   return (
