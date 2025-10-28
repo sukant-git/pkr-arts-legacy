@@ -12,7 +12,7 @@ const NewsTicker = () => {
   return (
     <div className="bg-accent py-3 overflow-hidden">
       <div className="flex items-center">
-        <div className="flex items-center bg-primary px-6 py-2">
+        <div className="flex items-center bg-primary px-3 sm:px-6 py-2">
           <Megaphone className="h-5 w-5 text-white mr-2" />
           <span className="text-white font-semibold text-sm whitespace-nowrap">News</span>
         </div>

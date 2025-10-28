@@ -45,8 +45,8 @@ const NewsEvents = () => {
               key={index}
               className="border-l-4 border-accent pl-4 py-2 hover:bg-muted/50 transition-colors cursor-pointer"
             >
-              <div className="flex items-start">
-                <div className="bg-accent text-accent-foreground rounded-md px-3 py-1 text-xs font-semibold mr-3 whitespace-nowrap">
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="bg-accent text-accent-foreground rounded-md px-3 py-1 text-xs font-semibold mb-1 sm:mb-0 sm:mr-3 whitespace-nowrap self-start">
                   {event.date}
                 </div>
                 <div>
