@@ -25,7 +25,7 @@ const HeroSection = () => {
                 Accredited by NAAC with 'A' Grade
               </h2>
               <p className="text-white text-base sm:text-lg md:text-xl mb-4 sm:mb-6">
-                Promoting knowledge and skills of learners
+                Promoting knowledge and skills of learner
               </p>
             </div>
           </div>
