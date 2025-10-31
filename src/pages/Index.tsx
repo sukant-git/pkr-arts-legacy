@@ -31,7 +31,7 @@ const Index = () => {
         <Tabs value={tab} onValueChange={setTab} className="w-full">
           <TabsList ref={tabListRef} className="w-full flex justify-center mb-4">
             <TabsTrigger value="tab1">Overview</TabsTrigger>
-            <TabsTrigger value="tab2">OBE Excel Data</TabsTrigger>
+            <TabsTrigger value="tab2">CO/PO Excel Data</TabsTrigger>
           </TabsList>
           <TabsContent value="tab1">
             <div className="flex flex-col items-center gap-6">

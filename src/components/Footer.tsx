@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="mt-8 pt-6 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-white/80 mb-4 md:mb-0">
-              © 2025 P.K.R. Arts College for Women. All rights reserved.
+              © 2022 P.K.R. Arts College for Women. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-accent transition-colors" aria-label="Facebook">

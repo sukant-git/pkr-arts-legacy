@@ -39,7 +39,7 @@ const HeroSection = () => {
             onClick={handleOpenExcel}
             className="bg-white text-primary hover:bg-white/90 font-semibold text-sm sm:text-base md:text-lg px-6 sm:px-8 py-4 sm:py-6 shadow-lg transform transition-all hover:scale-105"
           >
-            OBE CO/BO Course Attainment
+            OBE CO/PO Course Attainment
           </Button>
         </div>
       </div>
